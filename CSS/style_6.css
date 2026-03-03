@@ -10,7 +10,7 @@ body {
   height: 100vh;
 }
 
-/* HEADER */
+
 .header {
   grid-column: 1 / 4;
   background: black;
@@ -21,7 +21,7 @@ body {
   font-weight: bold;
 }
 
-/* SIDEBAR */
+
 .sidebar {
   grid-row: 2 / 4;
   background: linear-gradient(#4f81bd, #3a6ea5);
@@ -29,7 +29,7 @@ body {
   flex-direction: column;
 }
 
-/* MENÚ */
+
 .menu {
   background: linear-gradient(#a6ce39, #7fbf2f);
   color: white;
@@ -39,12 +39,12 @@ body {
   font-weight: bold;
 }
 
-/* BLOQUE AZUL INFERIOR */
+
 .blue-box {
   flex-grow: 1;
 }
 
-/* BLOQUE MORADO */
+
 .top-purple {
   grid-column: 2 / 4;
   grid-row: 2 / 3;
@@ -52,7 +52,7 @@ body {
   border: 2px solid black;
 }
 
-/* BLOQUES ROJOS */
+
 .red {
   background: linear-gradient(#e53935, #b71c1c);
   border: 2px solid black;
@@ -68,7 +68,7 @@ body {
   grid-row: 3 / 4;
 }
 
-/* FOOTER */
+
 .footer {
   grid-column: 1 / 4;
   background: linear-gradient(#f5d0a9, #e8b98a);

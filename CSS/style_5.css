@@ -12,7 +12,7 @@ body {
   height: 100vh;
 }
 
-/* Estilo general de cajas */
+
 .box {
   border: 3px solid black;
   display: flex;
@@ -22,7 +22,7 @@ body {
   color: black;
 }
 
-/* Colores */
+
 .blue {
   background: linear-gradient(#5b8bd9, #3f6fb5);
 }
@@ -43,7 +43,7 @@ body {
   background: linear-gradient(#ffb347, #f28c28);
 }
 
-/* Posiciones específicas */
+
 .small {
   grid-column: 1 / 2;
   grid-row: 1 / 2;

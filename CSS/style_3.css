@@ -9,7 +9,7 @@ html, body {
     width: 100%;
 }
 
-/* Contenedor principal en pantalla completa */
+
 .container {
     display: flex;
     height: 100vh;
@@ -17,7 +17,7 @@ html, body {
     border: 5px solid black;
 }
 
-/* Columnas */
+
 .left, .right {
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ html, body {
     flex: 0.7;
 }
 
-/* Bloques internos */
+
 .top-blue {
     flex: 3;
     background: linear-gradient(to bottom, #5e8fd6, #4b74b0);

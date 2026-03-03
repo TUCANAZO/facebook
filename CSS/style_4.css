@@ -11,30 +11,29 @@
     height: 100vh;
 }
 
-/* Header negro */
+
 .header{
     background: black;
     color: white;
     grid-column: 1 / 4;
 }
 
-/* Barra roja */
 .barra{
     background: rgb(255, 94, 94);
     grid-column: 1 / 4;
 }
 
-/* Verde izquierda */
+
 .verde{
     background: yellowgreen;
 }
 
-/* Azul centro */
+
 .azul{
     background: steelblue;
 }
 
-/* Morados derecha */
+
 .morado1{
     background: rgb(156, 84, 156);
 }
@@ -47,7 +46,7 @@
     background: rgb(156, 84, 156);
 }
 
-/* Footer */
+
 .footer{
     background: rgb(248, 166, 43);
     grid-column: 1 / 4;
