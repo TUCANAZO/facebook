@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 100px;
+    background-color: royalblue;
+    border: 2px solid black;
+}
+
+#contenido{
+    display: flex;          
+    height: 750px;
+    border-style: 2px solid black;
+}
+
+.columna{
+    flex: 1;
+    border:2px solid black;                
+
+}
+
+.izquierda{
+    background-color: rgb(156, 84, 156);
+}
+
+.centro{
+    background-color: rgb(255, 94, 94);
+}
+
+.derecha{
+    background-color: rgb(156, 84, 156);
+}
+
+#footer{
+    height: 100px;
+    background-color: rgb(248, 166, 43);
+    border: 2px solid black;
+}
