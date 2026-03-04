@@ -49,6 +49,7 @@ html, body {
     flex: 3;
     background: linear-gradient(to bottom, #ff5c5c, #c74747);
     border-bottom: 5px solid black;
+    
 }
 
 .bottom-orange {

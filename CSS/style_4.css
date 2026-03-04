@@ -20,34 +20,39 @@
 
 .barra{
     background: rgb(255, 94, 94);
-    grid-column: 1 / 4;
-}
+    border: 2px solid black;
+    grid-column: 1 / 4}
+    
+  
 
 
 .verde{
     background: yellowgreen;
+    height: 400px;
+    border: 2px solid black
 }
 
 
 .azul{
     background: steelblue;
+    height: 400px;
+    border: 2px solid black;
 }
 
-
-.morado1{
+.caja{
+    display: flex;
+    flex-direction: column ;
+    height: 400px;
+    width: 500px;
+}
+.morado{
     background: rgb(156, 84, 156);
+    height: 400px;
+    border: 2px solid black;
 }
-
-.morado2{
-    background: rgb(156, 84, 156);
-}
-
-.morado3{
-    background: rgb(156, 84, 156);
-}
-
 
 .footer{
-    background: rgb(248, 166, 43);
-    grid-column: 1 / 4;
+  background: orange;
+ border: 2px solid black;
+  grid-column: 1 / 4;
 }
